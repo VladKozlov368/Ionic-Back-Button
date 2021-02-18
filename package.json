@@ -1,6 +1,6 @@
 {
   "name": "pro.inmost.ionic.back.button",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Overrides the Android back button completely.",
   "cordova": {
     "id": "pro.inmost.ionic.back.button",
