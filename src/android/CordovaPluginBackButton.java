@@ -21,7 +21,6 @@ public class CordovaPluginBackButton extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-          Log.d("myLogs", "execute() called with: action = [" + action + "], args = [" + args + "], callbackContext = [" + callbackContext + "]");
         if ("initBackButton".equals(action)) {
             this.initBackButton(callbackContext);
             return true;
