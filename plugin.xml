@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="pro.inmost.ionic.back.button" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>CordovaPluginBackButton</name>
+    <js-module name="CordovaPluginBackButton" src="www/CordovaPluginBackButton.js">
+        <clobbers target="cordova.plugins.CordovaPluginBackButton"/>
+    </js-module>
+    <platform name="android">
+        <hook type="after_plugin_install" src="scripts/beforeInstall.js" />
+        <hook type="before_plugin_uninstall" src="scripts/beforeUninstall.js" />
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="CordovaPluginBackButton">
+                <param name="android-package" value="pro.inmost.ionic.back.button.CordovaPluginBackButton"/>
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/CordovaPluginBackButton.java"
+                     target-dir="src/pro/inmost/ionic/back/button/CordovaPluginBackButton"/>
+    </platform>
+</plugin>

@@ -1,0 +1,25 @@
+{
+  "name": "pro.inmost.ionic.back.button",
+  "version": "0.0.1",
+  "description": "Overrides the Android back button completely.",
+  "cordova": {
+    "id": "pro.inmost.ionic.back.button",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladKozlov368/Ionic-Back-Button.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Vlad Kozlov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladKozlov368/Ionic-Back-Button/issues"
+  },
+  "homepage": "https://github.com/VladKozlov368/Ionic-Back-Button#readme"
+}
